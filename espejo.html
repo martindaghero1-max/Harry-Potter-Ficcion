@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El espejo · Una noche de invierno en Hogwarts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Crimson+Text:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<main>
+<img src="velas.jpg" alt="Velas encendidas rojas y transparentes sobre un estante oscuro de metal" width="1400" height="900" loading="lazy">
+<h1>El espejo en el aula vacía</h1>
+<p>Entras corriendo en un aula abandonada. Entre pupitres amontonados hay un espejo muy alto, con marco dorado y una inscripción grabada. Al mirarlo ves a tus padres a tu lado, sonriéndote.</p>
+<p>Por un momento olvidas a Filch, el libro y el perro. Pero los pasos se acercan otra vez.</p>
+<h2>¿Qué haces?</h2>
+<ul class="opciones">
+<li><a href="final-cama.html">Salir bajo la capa y volver a tu cama</a></li>
+<li><a href="fluffy.html">Ir al corredor del tercer piso</a></li>
+</ul>
+<div class="musica">
+<button id="musica" type="button" aria-pressed="false">🔇 Activar música</button>
+<p id="estado" role="status"></p>
+</div>
+<div class="oculto" aria-hidden="true">
+<iframe id="yt" width="200" height="200" src="https://www.youtube.com/embed/reeajtRmbcU?enablejsapi=1&amp;loop=1&amp;playlist=reeajtRmbcU&amp;controls=0&amp;playsinline=1" title="Música de ambiente de Hogwarts (audio)" allow="autoplay; encrypted-media" tabindex="-1"></iframe>
+</div>
+<script src="musica.js"></script>
+</main>
+<footer>
+<p>Ficción interactiva basada en Harry Potter y la piedra filosofal · Autor/a: <strong>Martín Daghero</strong> ·
+<a href="https://www.instagram.com/martin_daghero_" target="_blank" rel="noopener">Mi Instagram</a></p>
+</footer>
+</body>
+</html>

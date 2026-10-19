@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inicio · Una noche de invierno en Hogwarts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Crimson+Text:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<main>
+<img src="castillo-neuschwanstein.jpg" alt="Castillo de torres blancas sobre una colina boscosa, con un lago y campos verdes al fondo" width="1400" height="900" loading="eager">
+<h1>Una noche de invierno en Hogwarts</h1>
+<p>Eres Harry Potter y estás en tu primer año en Hogwarts. Esta mañana, en Navidad, recibiste dos regalos: una flauta de madera tallada a mano, de parte de Hagrid, y una capa plateada que te vuelve invisible, sin firma ni remitente.</p>
+<p>Ahora el castillo duerme. Todos hablan de un perro que custodia algo en el corredor del tercer piso, y piensas que quizás la Sección Prohibida de la biblioteca tenga la respuesta.</p>
+<h2>¿Adónde vas?</h2>
+<ul class="opciones">
+<li><a href="biblioteca.html">Ir a la biblioteca, bajo la capa</a></li>
+<li><a href="pasillo.html">Subir al corredor del tercer piso</a></li>
+</ul>
+<h2>Ambiente</h2>
+<p>Activá la música para sentir el castillo en invierno.</p>
+<div class="musica">
+<button id="musica" type="button" aria-pressed="false">🔇 Activar música</button>
+<p id="estado" role="status"></p>
+</div>
+<div class="oculto" aria-hidden="true">
+<iframe id="yt" width="200" height="200" src="https://www.youtube.com/embed/reeajtRmbcU?enablejsapi=1&amp;loop=1&amp;playlist=reeajtRmbcU&amp;controls=0&amp;playsinline=1" title="Música de ambiente de Hogwarts (audio)" allow="autoplay; encrypted-media" tabindex="-1"></iframe>
+</div>
+<script src="musica.js"></script>
+</main>
+<footer>
+<p>Ficción interactiva basada en Harry Potter y la piedra filosofal · Autor/a: <strong>Martín Daghero</strong> ·
+<a href="https://www.instagram.com/martin_daghero_" target="_blank" rel="noopener">Mi Instagram</a></p>
+</footer>
+</body>
+</html>

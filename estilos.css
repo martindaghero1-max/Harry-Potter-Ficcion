@@ -1,0 +1,27 @@
+:root{
+  --fondo:#0e0b1f; --papel:#1a1533; --texto:#ece6d6; --oro:#d4af37; --enlace:#8fd3ff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fondo);color:var(--texto);font-family:'Crimson Text',Georgia,serif;font-size:1.25rem;line-height:1.7}
+main{max-width:46rem;margin:0 auto;padding:2rem 1.25rem}
+h1{font-family:'Cinzel Decorative',serif;font-size:2.4rem;color:var(--oro);text-align:center;line-height:1.2;margin:1rem 0}
+h2{font-family:'Cinzel Decorative',serif;font-size:1.5rem;color:var(--oro);margin-top:2rem}
+p{font-size:1.25rem;margin:1rem 0}
+a{color:var(--enlace)}
+a:hover,a:focus{color:var(--oro)}
+img,iframe{max-width:100%;border-radius:.5rem;border:2px solid var(--oro)}
+img{height:auto;display:block;margin:1rem auto}
+iframe{width:100%;aspect-ratio:16/9;height:auto}
+ul.opciones{list-style:none;padding:0}
+ul.opciones li{background:var(--papel);border-left:4px solid var(--oro);margin:.75rem 0;padding:.6rem 1rem}
+.final{text-align:center;font-style:italic}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--oro);font-size:1rem;text-align:center}
+footer p{font-size:1rem}
+
+.oculto{position:absolute;left:-9999px;top:0;width:200px;height:200px;overflow:hidden}
+button{font-family:'Cinzel Decorative',serif;font-size:1rem;background:var(--oro);color:#1a1533;border:0;border-radius:.4rem;padding:.7rem 1.2rem;cursor:pointer}
+button:hover,button:focus{background:var(--enlace)}
+img{max-height:60vh;object-fit:cover;width:100%}
+
+#estado{font-size:1rem;font-style:italic}
+.musica{margin:2rem 0}
